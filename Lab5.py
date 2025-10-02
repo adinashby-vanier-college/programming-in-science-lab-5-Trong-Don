@@ -9,7 +9,7 @@ def hollow_square(n):
     space = "*" + ((n - 2) * " ") + "*" + "\n"
     result = ""
 
-    if n == 1:
+    if n <= 1:
         result = star
 
     else:
